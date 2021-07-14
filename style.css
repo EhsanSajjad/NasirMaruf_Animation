@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+pre {
+  color: rgb(192, 5, 5);
+  font-size: 22px;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: justify;
+  transition: 3s;
+}
+
+pre:hover {
+  font-size: 36px;
+  color: black;
+  background-color: wheat;
+}
+
+p {
+  background-color: rgb(230, 201, 253);
+  width: 40%;
+  height: 200px;
+  border: 3px solid rgb(104, 105, 105);
+  overflow: scroll;
+}
+
+.mydiv {
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+  transition: 1s;
+}
+.mydiv img {
+  width: 300px;
+  height: 300px;
+  border: 5px dashed black;
+  margin: 25px;
+  padding: 20px;
+  transition: 1s;
+}
+
+.mydiv:hover {
+  margin-left: 100px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.mydiv img:hover {
+  border-radius: 50%;
+  margin: 25px;
+  padding: 20px;
+  border: 5px dashed white;
+}
+
+.imglptp {
+  width: 700px;
+}
+
+.mydiv2 {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  transition: 1.5s;
+}
+.mydiv2 img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid white;
+  padding: 20px;
+  margin: 25px;
+  transition: 2.5s;
+}
+
+.mydiv2:hover {
+  margin-left: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+.mydiv2 img:hover {
+  border-radius: 50%;
+  margin: 25px;
+  padding: 20px;
+  border: 10px dotted black;
+}
