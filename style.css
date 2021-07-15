@@ -3,12 +3,12 @@ body {
   padding: 0;
 }
 pre {
+  padding: 50px;
   color: rgb(192, 5, 5);
   font-size: 22px;
-  padding: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   text-transform: capitalize;
   text-align: justify;
   transition: 3s;
@@ -26,32 +26,34 @@ p {
   height: 200px;
   border: 3px solid rgb(104, 105, 105);
   overflow: scroll;
+  cursor: text;
 }
 
-.mydiv {
+.rifatDiv {
   width: 400px;
   height: 400px;
   background-color: plum;
   transition: 1s;
 }
-.mydiv img {
+.rifatDiv img {
+  margin: 25px;
+  padding: 20px;
   width: 300px;
   height: 300px;
   border: 5px dashed black;
-  margin: 25px;
-  padding: 20px;
   transition: 1s;
 }
 
-.mydiv:hover {
+.rifatDiv:hover {
   margin-left: 100px;
   border-radius: 50%;
   background-color: gray;
+  cursor: pointer;
 }
-.mydiv img:hover {
-  border-radius: 50%;
+.rifatDiv img:hover {
   margin: 25px;
   padding: 20px;
+  border-radius: 50%;
   border: 5px dashed white;
 }
 
@@ -59,29 +61,68 @@ p {
   width: 700px;
 }
 
-.mydiv2 {
+.nasirDiv {
   width: 400px;
   height: 400px;
   background-color: black;
   transition: 1.5s;
 }
-.mydiv2 img {
+.nasirDiv img {
+  padding: 20px;
+  margin: 25px;
   width: 300px;
   height: 300px;
   border: 5px solid white;
-  padding: 20px;
-  margin: 25px;
   transition: 2.5s;
 }
 
-.mydiv2:hover {
+.nasirDiv:hover {
   margin-left: 100px;
   border-radius: 50%;
   background-color: white;
+  cursor: pointer;
 }
-.mydiv2 img:hover {
-  border-radius: 50%;
+.nasirDiv img:hover {
   margin: 25px;
   padding: 20px;
+  border-radius: 50%;
   border: 10px dotted black;
+}
+
+.myDiv {
+  margin: 10px;
+  width: 500px;
+  height: 350px;
+  background: url(./Images/laptop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  transition: 2s;
+}
+
+.myDiv:hover {
+  background: url(./Images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  cursor: pointer;
+}
+
+.myDiv2 {
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  background-image: url(./Images/sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+}
+
+.myDiv2:hover {
+  width: 70%;
+  height: 250px;
+  margin: auto;
+  background-position: center;
+  cursor: pointer;
 }
