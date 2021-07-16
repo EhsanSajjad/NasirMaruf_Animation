@@ -2,6 +2,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
+p {
+  background-color: rgb(230, 201, 253);
+  width: 40%;
+  height: 200px;
+  border: 3px solid rgb(104, 105, 105);
+  overflow: scroll;
+  cursor: text;
+}
+
+a {
+  font-size: 28px;
+  font-weight: bolder;
+  color: brown;
+  text-decoration: none;
+}
+
 pre {
   padding: 50px;
   color: rgb(192, 5, 5);
@@ -18,15 +35,6 @@ pre:hover {
   font-size: 36px;
   color: black;
   background-color: wheat;
-}
-
-p {
-  background-color: rgb(230, 201, 253);
-  width: 40%;
-  height: 200px;
-  border: 3px solid rgb(104, 105, 105);
-  overflow: scroll;
-  cursor: text;
 }
 
 .rifatDiv {
@@ -125,4 +133,35 @@ p {
   margin: auto;
   background-position: center;
   cursor: pointer;
+}
+
+.myVideo {
+  width: 700px;
+}
+
+.btn {
+  background-color: #377dff;
+  color: white;
+  margin: 50px 0 50px 50px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  width: 300px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #0026ff;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.ulDiv ul li {
+  list-style: none;
+  text-transform: capitalize;
+  float: left;
+  margin-right: 30px;
 }
