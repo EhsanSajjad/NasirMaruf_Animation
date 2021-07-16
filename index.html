@@ -107,39 +107,90 @@
         <li>four</li>
       </ul>
     </div>
-    <br> <br> <br>
+    <br />
+    <br />
+    <br />
 
-    <form action="">
-      <label for="firstName">First name:</label>
-      <input type="text" placeholder="Enter your first name" id="firstName"> <br><br>
-      <label for="lastName">Last Name:</label>
-      <input type="text" placeholder="Enter your last name" id="lastName" ><br><br>
-      <label for="mobile">Mobile:</label>
-      <input type="number" placeholder="01XXXXXXXXX" id="mobile"> <br><br>
-      <label for="email">E-mail</label>
-      <input type="email" placeholder="yourmail@gmail.com" id="email"> <br> <br>
-      <label for="password">Password</label>
-      <input type="password" placeholder="Your password" id="password"> <br><br>
+    <form action="submit.html">
+      <!-- <fieldset> create a border around the form -->
+      <fieldset>
+        <legend>This is a Demo Form</legend>
+        <!-- <legend> is the form title -->
 
-      <!-- radio button -->
-      <label><h3>Gender</h3></label>
-      <input type="radio" name="gender" id="male" checked>
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="female">
-      <label for="female">Female</label>
+        <label for="firstName">First name:</label>
+        <input type="text" placeholder="Enter your first name" id="firstName" />
+        <br /><br />
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          placeholder="Enter your last name"
+          id="lastName"
+        /><br /><br />
+        <label for="mobile">Mobile:</label>
+        <input type="number" placeholder="01XXXXXXXXX" id="mobile" />
+        <br /><br />
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="yourmail@gmail.com" id="email" />
+        <br />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" placeholder="Your password" id="password" />
+        <br /><br />
 
+        <!-- radio button -->
+        <label><h4>Gender</h4></label>
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label><br />
+
+        <!-- date of birth -->
+        <label><h4>Date of Birth</h4></label>
+        <input type="date" min="1-1-1990" max="1-1-2030" />
+
+        <!-- Drop Down Menu -->
+        <label><h4>City</h4></label>
+        <select>
+          <option>Dhaka</option>
+          <option>Mymensingh</option>
+          <option>Rajshahi</option>
+          <option>Comilla</option>
+        </select>
+
+        <!-- Upload Files -->
+        <label><h4>Upload File</h4></label>
+        <input type="file" /> <br /><br />
+
+        <!-- Select Color -->
+        <label><b>Select your Color</b></label>
+        <input type="color" />
+
+        <!-- Text Area -->
+        <label><h4>Text Area</h4></label>
+        <textarea
+          cols="30"
+          rows="5"
+          placeholder="Enter your message"
+        ></textarea>
+        <br /><br />
+
+        <input type="submit" />
+        <input type="submit" value="Send" /><br /><br />
+
+        <input type="reset" />
+        <input type="reset" value="Clear All" />
+      </fieldset>
     </form>
+    <br /><br /><br />
 
+    <!-- float -->
+    <!-- eti bebohar kore jekono block line k inline code kore fela jay-->
+    <div class="div1"></div>
+    <div class="div2"></div>
 
+    <br /><br /><br /><br /><br /><br /><br />
 
-
-
-
-
-
-
-
-
-
+    <h2 class="heading1">This is a new Heading</h2>
+    <h2 class="heading2">This is also a Heading</h2>
   </body>
 </html>

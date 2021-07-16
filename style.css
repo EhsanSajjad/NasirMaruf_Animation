@@ -165,3 +165,35 @@ pre:hover {
   float: left;
   margin-right: 30px;
 }
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: #377dff;
+  border-radius: 4px;
+  margin-left: 5px;
+  float: left;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: #202020;
+  border-radius: 4px;
+  margin-left: 5px;
+  float: left;
+}
+
+.heading1 {
+  width: 150px;
+  background-color: tomato;
+  float: left;
+  margin-left: 10px;
+}
+
+.heading2 {
+  width: 150px;
+  background-color: yellowgreen;
+  float: left;
+  margin-left: 10px;
+}
